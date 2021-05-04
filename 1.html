@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html>
+<head>
+  <title>WEB - html</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+  <ol>
+  <strong><li><a href="1.html">HTML</a></li></strong>
+  <strong><li><a href="2.html">CSS</a></li></strong>
+  <strong><li><a href="3.html">JavaScript</a></li></strong>
+</ol>
+<div id="article">
+<h2><a href="https://www.w3.org/TR/html52/" target="_blank" title="html5 speicification">HTML</a></h2>
+<p>
+<strong>When</strong> an <u><strong>HTTP client (generally a web browser)</strong></u> 
+    <br>requests a URL that points to a directory structure instead of an actual web page within the directory, 
+    <br>the web server will generally serve a default page, which is often referred to as a main or "index" page.
+    <strong>A</strong> common filename for such a page is <u><strong>index.html</strong></u>, but most modern HTTP servers offer a configurable list of filenames that the server can use as an index. 
+    <br><u>If a server is configured to support server-side scripting</u>, the list will usually include entries allowing dynamic content to be used as the index page ,
+    <strong>(e.g. index.php, index.shtml, index.jsp, default.asp)</strong> even though it may be more <strong>appropriate to still specify the HTML output (index.html.php or index.html.aspx)</strong>,
+    as this should not be taken for granted. An example is the popular open source web server Apache, where the list of filenames is controlled by the DirectoryIndex[1] directive in the main server 
+    configuration file or in the configuration file for that directory. It is possible to make do without file extensions at all, and be neutral to content delivery methods, and <strong>set the server 
+    to automatically pick the best file through</strong> content negotiation.
+    If the server is unable to find a file with any of the names listed in its configuration, it may either return an error <u>(generally 404 Not Found)</u> or generate its own index page listing the 
+    files in the directory. It may also return a 403 Index Listing Forbidden. Usually this option is also configurable.
+ </p> 
+ </div>
+</div>
+</body>
+</html>
